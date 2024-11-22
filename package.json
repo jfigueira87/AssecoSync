@@ -30,6 +30,7 @@
     "typescript-eslint": "^8.15.0"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "*.js": "eslint --cache --fix",
+    "*.ts": "eslint --cache --fix"
   }
 }
